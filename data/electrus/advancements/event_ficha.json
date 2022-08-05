@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{Inventory:[{Slot:9b,tag:{electruscraftdata:{Slot:9b, id: \"ficha\"}}}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "electrus:events/ficha"
+    }
+}
