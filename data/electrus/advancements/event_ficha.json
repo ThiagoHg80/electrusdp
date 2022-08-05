@@ -4,7 +4,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {
-                    "nbt": "{Inventory:[{Slot:9b,tag:{electruscraftdata:{Slot:9b, id: \"ficha\"}}}]}"
+                    "nbt": "{Inventory:[{Slot:9b,tag:{ElectrusData:{Slot:9b, id: 'ficha'}}}]}"
                 }
             }
         }
