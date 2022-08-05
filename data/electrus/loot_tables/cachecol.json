@@ -10,19 +10,19 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 2203100, ElectrusData: {id: 'ficha', Slot: 9b}, display: {Name: '{\"text\": \"Ficha\", \"italic\": false, \"color\": \"#FFFFFF\"}'}}"
+                            "tag": "{CustomModelData: 2203010, ElectrusData: {id: 'cachecol', Slot: 10b}, display: {Name: '{\"text\": \"Cachecol Kit Caloiro\", \"italic\": false, \"color\": \"#FFFFFF\"}'}}"
                         },
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "Amuleto",
+                                    "text": "Proteção",
                                     "italic": false,
                                     "bold": true,
                                     "color": "#8C2D19"
                                 },
                                 {
-                                    "text": "5% de chance de invocar um trovão ao atacar",
+                                    "text": "+6 HP",
                                     "italic": false,
                                     "color": "#FFFFFF"
                                 }
