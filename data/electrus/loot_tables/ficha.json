@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 2022000, ElectrusData: {id: 'ficha', Slot: 9b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Ficha"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Amuleto",
+                                    "italic": false,
+                                    "bold": true,
+                                    "color": "#8C2D19"
+                                },
+                                {
+                                    "text": "Invoca um trovão ao atacar (2%)",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
