@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData: 2022000, ElectrusData: {id: 'ficha', Slot: 9b}, display: {Name: '{\"text\": \"Ficha\", \"italic\": false, \"color\": \"#FFFFFF\"}'},"
+                            "tag": "{CustomModelData: 2022000, ElectrusData: {id: 'ficha', Slot: 9b}, display: {Name: '{\"text\": \"Ficha\", \"italic\": false, \"color\": \"#FFFFFF\"}'}}"
                         },
                         {
                             "function": "minecraft:set_lore",
