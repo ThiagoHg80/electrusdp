@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "detect": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        ["detect"]
+    ],
+    "rewards": {
+        "function": "electrus:events/inventory_updated"
+    }
+}
