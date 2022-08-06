@@ -1,0 +1,29 @@
+{
+    "parent": "electrus:caloirinho_feupinho",
+    "display": {
+        "icon": {
+            "item": "minecraft:jigsaw",
+            "nbt": "{CustomModelData:2203000}"
+        },
+        "title": "Capa aos ombros",
+        "description": "O que te protege do frio te protege do calor, obtenha uma capa"
+    },
+    "criteria": {
+        "obter_capa": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "jigsaw"
+                        ],
+                        "nbt": "{CustomModelData:2203000}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["obter_capa"]
+    ]
+}
