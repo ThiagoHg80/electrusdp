@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jigsaw",
+            "nbt": "{CustomModelData:2203010}"
+        },
+        "title": "Caloirinho Feupinho",
+        "description": "Obtenha o Cachecol do Kit Caloiro",
+        "background": "minecraft:textures/block/black_concrete_powder.png"
+    },
+    "criteria": {
+        "obter_cachecol": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "jigsaw"
+                        ],
+                        "nbt": "{CustomModelData:2203010}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["obter_cachecol"]
+    ]
+}
