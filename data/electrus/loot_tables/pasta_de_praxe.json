@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 2200000, ElectrusData: {id: 'pasta_de_praxe'}, display: {Name: '{\"text\": \"Pasta de Praxe\", \"italic\": false, \"color\": \"#222222\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "amount": 8.0,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "fire_aspect": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

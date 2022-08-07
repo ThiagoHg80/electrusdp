@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 2200000, display: {Name: '{\"text\": \"Madalena\", \"italic\": false, \"color\": \"#FFFFFF\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
